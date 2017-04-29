@@ -1,0 +1,2 @@
+
+Overuse of Inheritance can result in designs that are quite inflexible and not amenable to change.
