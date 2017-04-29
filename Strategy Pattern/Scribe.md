@@ -35,6 +35,9 @@ Problem with this design you ask?
 3. Still doesn't provide for runtime changes to behaviors.
 
 How do we solve the above problem?
+
+STRATEGY PATTERN:
+
 Design Principle #1 : ENCAPSULATE WHAT VARIES
 Identify the aspects of your code that vary and separate them from what stays the same.
 (fly and quack in our example)
@@ -47,6 +50,7 @@ Now let us rework the Duck superclass.
 
 ![screen shot 2017-04-29 at 13 19 09](https://cloud.githubusercontent.com/assets/17459420/25558581/7f633d96-2cde-11e7-9909-25f93944dbcc.png)
 
+Notice that now each Duck subclass only need to implement display method. We are now relying on an interface rather than relying on specific implementations of quack and fly. Each duck class now has a quack and fly behavior. The behavior will now be determined by concrete instance at run time, when it is set. We are no longer tied to an implementation at compile time. The ducks don't need to know details of how specific behaviors are implemented. 
 
 
 
