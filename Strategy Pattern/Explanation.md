@@ -14,6 +14,20 @@ Now what if get a request to add an aditional feature to say make ducks fly. We 
 
 ![screen shot 2017-04-29 at 11 04 38](https://cloud.githubusercontent.com/assets/17459420/25557714/c01565fc-2ccb-11e7-850c-ca76d0670103.png)
 
+Lets say we add another duck "Decoy duck" into our design. Decoy ducks don't squeak, so we need to override quack method. They don't fly, so we need to override fly method as well. Now we see that we are overriding most of the emthods from super class and we are not really benefitting from inheritance, atleast for this duck.
+
+![screen shot 2017-04-29 at 11 14 55](https://cloud.githubusercontent.com/assets/17459420/25557775/2dd5e70a-2ccd-11e7-87fd-cc078d3a8ad9.png)
+
+Problem with this Design ?
+1. Although we are keeping ducks organized in a hierarchy of classes we don't seem to be getting any reuse benefits. We are duplicating the code across classes.
+2. We can't look at our superclass and get a lot of direct knowledge of the ducks anymore. We realy have to go into each concrete class to understand more about what the code does.
+3. As we saw with fly method. A simple change to superclass can lead to unintended side effects with the other ducks.
+4. A major issue with this design is that all the behavior of the ducks is assigned at the compile time. So we cannot change particlular duck instance at run time.
+So this design isn't actually giving us a lot of flexibility we might have expected.
+
+
+
+
 
 
 
