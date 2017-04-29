@@ -43,6 +43,16 @@ Desing Principle #2: Program to an interface, not an implementation.
 
 ![screen shot 2017-04-29 at 13 08 16](https://cloud.githubusercontent.com/assets/17459420/25558498/f59e8a62-2cdc-11e7-913f-8fd7500dc8d0.png)
 
+Now let us rework the Duck superclass.
+
+![screen shot 2017-04-29 at 13 19 09](https://cloud.githubusercontent.com/assets/17459420/25558581/7f633d96-2cde-11e7-9909-25f93944dbcc.png)
+
+
+
+
+
+
+
 
 
 
