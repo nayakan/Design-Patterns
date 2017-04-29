@@ -10,7 +10,11 @@ Now lets say we get a request to add another duck, "Rubber duck". We have a slig
 
 ![screen shot 2017-04-29 at 10 56 58](https://cloud.githubusercontent.com/assets/17459420/25557666/cb41b81e-2cca-11e7-9be4-e44dcabca1cf.png)
 
-Now what if get a request to add an aditional feature to say make ducks fly. We can leverage inheritance by adding fly method to super class 'duck'.
+Now what if get a request to add an aditional feature to say make ducks fly. We can leverage inheritance by adding fly method to super class 'duck'. But we all know Rubber ducks can't fly. So we need to fix rubber duck again by overriding the fly method as shown.
+
+![screen shot 2017-04-29 at 11 04 38](https://cloud.githubusercontent.com/assets/17459420/25557714/c01565fc-2ccb-11e7-850c-ca76d0670103.png)
+
+
 
 
 
