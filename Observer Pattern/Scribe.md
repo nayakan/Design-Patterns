@@ -23,6 +23,7 @@ The benefit of the observer pattern is that the observers and the subject are lo
 
 This brings us to 
 Design principle #4: Loose coupling.
+
 Loose coupling give the flexibility to vary subject and observers without breaking the contract between them. It allows for flexible object-oriented design.
 
 
