@@ -38,7 +38,8 @@ How do we solve the above problem?
 
 STRATEGY PATTERN:
 
-Design Principle #1 : ENCAPSULATE WHAT VARIES
+Design Principle #1 : Encapsulate what varies.
+
 Identify the aspects of your code that vary and separate them from what stays the same.
 (fly and quack in our example)
 
