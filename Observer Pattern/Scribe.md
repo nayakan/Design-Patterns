@@ -17,5 +17,13 @@ To illustrate Observer Pattern please look at the class diagram below for a Weat
 
 ![screen shot 2017-04-29 at 16 26 12](https://cloud.githubusercontent.com/assets/17459420/25559848/9e496d74-2cf8-11e7-8c79-1a344ace0892.png)
 
+Please check the Code folder for implementation of Weather Station simulator.
+
+The benefit of the observer pattern is that the observers and the subject are loosely coupled i.e we can make changes to the subject without affecting the observers and/or change/add observers without affecting the subject. Observers and Subject can vary independently of the other.
+
+This brings us to 
+Design principle #4: Loose coupling.
+Loose coupling give the flexibility to vary subject and observers without breaking the contract between them. It allows for flexible object-oriented design.
+
 
 
