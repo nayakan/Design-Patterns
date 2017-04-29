@@ -30,9 +30,22 @@ How about we use Interfaces you say? Let us rework our duck interfaces. Lets cre
 ![screen shot 2017-04-29 at 12 12 25](https://cloud.githubusercontent.com/assets/17459420/25558139/301ad0fe-2cd5-11e7-8b98-0dfe1afc03b4.png)
 
 Problem with this design you ask? 
-1. If there are 20 or 30 ducks say, then each duck will have to implement its own fly and quack methods. Absolutely no advantage of code reuse.
+1. If there are 20 or 30 ducks say, then each duck will have to implement its own fly and quack methods. Provides no ability for code reuse.
 2. Any changes needed to fly or quack methods would require one to look at the code at each of the classes and make changes. Worst maintenance nightmare.
-3. Still doesn't provide for runtime changes to behaviors should we want to.
+3. Still doesn't provide for runtime changes to behaviors.
+
+How do we solve the above problem?
+Design Principle #1 : ENCAPSULATE WHAT VARIES
+Identify the aspects of your code that vary and separate them from what stays the same.
+(fly and quack in our example)
+
+Desing Principle #2: Program to an interface, not an implementation.
+
+![screen shot 2017-04-29 at 13 04 47](https://cloud.githubusercontent.com/assets/17459420/25558484/7d78d3bc-2cdc-11e7-8f30-56cee6caa0dd.png)
+
+
+
+
 
 
 
