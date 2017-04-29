@@ -41,7 +41,9 @@ Identify the aspects of your code that vary and separate them from what stays th
 
 Desing Principle #2: Program to an interface, not an implementation.
 
-![screen shot 2017-04-29 at 13 04 47](https://cloud.githubusercontent.com/assets/17459420/25558484/7d78d3bc-2cdc-11e7-8f30-56cee6caa0dd.png)
+![screen shot 2017-04-29 at 13 08 16](https://cloud.githubusercontent.com/assets/17459420/25558498/f59e8a62-2cdc-11e7-913f-8fd7500dc8d0.png)
+
+
 
 
 
