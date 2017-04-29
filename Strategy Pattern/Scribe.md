@@ -46,8 +46,9 @@ Desing Principle #2: Program to an interface, not an implementation.
 
 ![screen shot 2017-04-29 at 13 08 16](https://cloud.githubusercontent.com/assets/17459420/25558498/f59e8a62-2cdc-11e7-913f-8fd7500dc8d0.png)
 
-Design principle #3: Favor composition over Inheritance
-If you have a choice composition leads to more flexible designs.
+Design principle #3: Favor composition over Inheritance.
+
+If you have a choice use composition. Composition leads to more flexible designs.
 
 Now let us rework the Duck superclass.
 
