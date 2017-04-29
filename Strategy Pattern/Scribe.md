@@ -25,6 +25,15 @@ Problem with this Design ?
 4. A major issue with this design is that all the behavior of the ducks is assigned at the compile time. So we cannot change particlular duck instance at run time.
 So this design isn't actually giving us a lot of flexibility as we might have expected.
 
+How about we use Interfaces you say? Let us rework our duck interfaces. Lets create two interfaces, flyable and quackable.
+
+![screen shot 2017-04-29 at 12 12 25](https://cloud.githubusercontent.com/assets/17459420/25558139/301ad0fe-2cd5-11e7-8b98-0dfe1afc03b4.png)
+
+Problem with this design you ask? 
+1. If there are 20 or 30 ducks say, then each duck will have to implement its own fly and quack methods. Absolutely no advantage of code reuse.
+2. Any changes needed to fly or quack methods would require one to look at the code at everyone of classes and make changes. Worst maintenance nightmare.
+3. Still doesn't provide for runtime changes to behaviors should we want to.
+
 
 
 
