@@ -31,7 +31,7 @@ How about we use Interfaces you say? Let us rework our duck interfaces. Lets cre
 
 Problem with this design you ask? 
 1. If there are 20 or 30 ducks say, then each duck will have to implement its own fly and quack methods. Absolutely no advantage of code reuse.
-2. Any changes needed to fly or quack methods would require one to look at the code at everyone of classes and make changes. Worst maintenance nightmare.
+2. Any changes needed to fly or quack methods would require one to look at the code at each of the classes and make changes. Worst maintenance nightmare.
 3. Still doesn't provide for runtime changes to behaviors should we want to.
 
 
