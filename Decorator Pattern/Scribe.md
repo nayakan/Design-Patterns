@@ -26,7 +26,9 @@ There are two important parts to Decorator pattern.
 
 In the class diagram above, the component class is an interface or an abstract class that is implemented by the concrete components (different kinds of beverage in our example). The decorator class which is also often an abstract class also implements the component class. This is the important part of Decorator pattern. Concrete decorators implement decorator class. 
 
-Please follow the code in Code folder to understand the workings of Decorator class diagram for our Coffee shop example. 
+It is important for concrete components and decorators to implement the component superclass so that we can wrap any decorator around any of the components. For example, in the coffee shop example, we want to be able to wrap any of the condiments around any of the coffees, and then pull the cost and get description methods on any of these wrapped objects Or even an unwrapped object and get the correct result. 
+
+Explantion will become more clear in the Coffee shop implementation provided in the Code folder.
 
 
 
