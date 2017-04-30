@@ -1,6 +1,7 @@
 # DesignPatterns
 
 Source: Linkedin Learning.
-Contribution: Lecture Scribe notes
+
+My contribution: Lecture Scribe notes
 
 
