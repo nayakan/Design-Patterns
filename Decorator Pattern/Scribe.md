@@ -20,6 +20,14 @@ Decorator Pattern provides a flexible alternative to subclassing for extending f
 
 ![screen shot 2017-04-30 at 12 20 28](https://cloud.githubusercontent.com/assets/17459420/25567314/959f34b8-2d9f-11e7-8aa8-f6dc7bcf723e.png)
 
+There are two important parts to Decorator pattern.
+1. Components which are the beverages in our example and
+2. Decorators which are the condiments in our example.
+
+In the class diagram above, the component class is an interface or an abstract class that is implemented by the concrete components (different kinds of beverage in our example). The decorator class which is also often an abstract class also implements the component class. This is the important part of Decorator pattern. Concrete decorators implement decorator class. 
+
+Please follow the code in Code folder to understand the workings of Decorator class diagram for our Coffee shop example. 
+
 
 
 
