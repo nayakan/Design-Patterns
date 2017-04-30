@@ -10,6 +10,17 @@ What are we forgetting here? Variants of coffee with condiments. For example Dar
 ![screen shot 2017-04-30 at 12 02 57](https://cloud.githubusercontent.com/assets/17459420/25567181/ffabb62c-2d9c-11e7-8467-a79c9e15addc.png)
 
 Result? Class Explosion!!!
+The design is just not manageable and requires complex logic if new condiments and drink additions happen.
+
+This brings us to 
+Desing Principle #5: Classes should be open for extension and closed for modification
+The goal is to have designs that we can augment at any time, but do it without touching the current code.
+
+Decorator Pattern provides a flexible alternative to subclassing for extending functionality. Decorator class diagram is as shown below.
+
+![screen shot 2017-04-30 at 12 20 28](https://cloud.githubusercontent.com/assets/17459420/25567314/959f34b8-2d9f-11e7-8aa8-f6dc7bcf723e.png)
+
+
 
 
 
